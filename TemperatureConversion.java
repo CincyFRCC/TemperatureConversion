@@ -7,14 +7,14 @@ public class TemperatureConversion {
         Scanner temp=new Scanner(System.in);
         System.out.println("Enter the temperature in Fahrenheit: ");
         //Assigning the temperature value to a variable
-        double temperature=temp.nextDouble();
+        int temperature=temp.nextInt();
         System.out.println("Temperature in Fahrenheit: "+temperature);
         //Converting the temperature in Fahrenheit to Celsius
-        double TempCelsius=(temperature-32)*5/9;
+        int TempCelsius=(temperature-32)*5/9;
         //Printing temperature in Celsius
         System.out.println("The temperature in Celsius is: "+TempCelsius);
         //Converting the temperature in Fahrenheit to Kelvin
-        double TempKelvin= (float) (TempCelsius+273.15);
+        double TempKelvin= TempCelsius+273.15;
         //Printing temperature in Kelvin
         System.out.println("The temperature in Kelvin is: "+TempKelvin);
     }
