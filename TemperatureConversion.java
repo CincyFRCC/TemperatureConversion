@@ -10,12 +10,12 @@ public class TemperatureConversion {
         int temperature=temp.nextInt();
         System.out.println("Temperature in Fahrenheit: "+temperature);
         //Converting the temperature in Fahrenheit to Celsius
-        int TempCelsius=(temperature-32)*5/9;
+        int tempCelsius=(temperature-32)*5/9;
         //Printing temperature in Celsius
-        System.out.println("The temperature in Celsius is: "+TempCelsius);
+        System.out.println("The temperature in Celsius is: "+tempCelsius);
         //Converting the temperature in Fahrenheit to Kelvin
-        double TempKelvin= TempCelsius+273.15;
+        double tempKelvin= tempCelsius+273.15;
         //Printing temperature in Kelvin
-        System.out.println("The temperature in Kelvin is: "+TempKelvin);
+        System.out.println("The temperature in Kelvin is: "+tempKelvin);
     }
 }
